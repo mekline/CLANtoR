@@ -1,8 +1,10 @@
 # CLANtoR
 
+[![DOI](https://zenodo.org/badge/124939114.svg)](https://zenodo.org/badge/latestdoi/124939114)
+
 To cite this repository:
 
-Kline, Melissa. (2012) CLANtoR (Github repository). [![DOI](https://zenodo.org/badge/124939114.svg)](https://zenodo.org/badge/latestdoi/124939114)
+Kline, Melissa. (2012) CLANtoR (Github repository). Available at [http://github.com/mekline/CLANtoR/](http://github.com/mekline/CLANtoR/) DOI:10.5281/zenodo.1196626
 
 This is a fairly simple R script that just takes a single CHILDES-formatted corpus file and turns it into an R dataframe with all corpus information (e.g. child, age, date) listed on each utterance. From there it can be written out as a CSV or other standard file format.
 
