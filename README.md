@@ -12,7 +12,7 @@ Be wary of the output you get with this script, especially if you wish to use ti
 
 In the Brown (1973) corpus this finds matching lengths for approximately 97% of adult sentences and 95% of child sentences- most of the exceptions are repairs (He has, she has a doll) and sentence fragments. The script is pretty slow (10 minutes or so to read the entire Eve corpus on my machine) but you should only need to run it once per corpus.
 
-I also include two additional Python files that may make the above more useful. They were written for the Brown (1973) corpus as well.  and the second simply 
+I also include two additional Python files that may make this code more useful, by cleaning up some common errors and splitting the csv output into manageable sizes. 
 
 ClantoR.R - The main script
 
