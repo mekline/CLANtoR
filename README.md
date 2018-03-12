@@ -2,7 +2,7 @@
 
 This is a fairly simple R script that just takes a single CHILDES-formatted corpus file and turns it into an R dataframe with all corpus information (e.g. child, age, date) listed on each utterance. From there it can be written out as a CSV or other standard file format.
 
-*Note: this is older code, and a much better solution for converting corpora to tabular data now exists! Go check out [childes-db](http://childes-db.stanford.edu/)*
+*Note: this is older code, and a much better solution for converting these corpora to tabular data now exists! Go check out [childes-db](http://childes-db.stanford.edu/)*
 
 In addition to copying any tiers that it finds into columns of the dataframe, CLANtoR also creates a gloss of the utterance that removes corpus notation, leaving an unannotated version that is suitable for displaying to experimental participants or conference audiences :) In the example script I've also done some additional processing that deletes ending punctuation and various whitespace anomalies in order to find even more sentences with matched gloss and %mor lines.
 
